@@ -1,3 +1,25 @@
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+body {
+    height: 125vh;
+    background-: url('3194277-hd_1920_1080_30fps.mp4');
+    background-size: cover;
+    font-family: sans-serif;
+}
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+}
 section .para{
     color:red;
 
@@ -23,14 +45,46 @@ a:active{
     color: #0000FF
 }
 h1 {
+    top: 50px;
     letter-spacing: 4px;
     word-spacing: 4px;
     font-size: 50px;
+    text-align: center;
   }
   .flexy {
     display: flex;
-    width: 200px;
+    position: sticky;
+    width: 500px;
     height: 200px;
-    background-color: blueviolet;
+
   }
-  
+
+   .table {
+    display: flex;
+    position: sticky;
+    width: 500px;
+    height: 200px;
+    background-color: white;
+  }
+  .header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.header * {
+    display: inline;
+}
+.header li {
+    margin: 20px;
+}
+@font-face {
+    font-family: "chathurabold";
+    src: url("../font/chathura_bold_macroman/chachathura-bold-webfont.eot");
+    font-weight: normal;
+    font-style: normal;
+}
